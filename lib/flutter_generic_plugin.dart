@@ -13,6 +13,8 @@ class FlutterGenericPlugin {
 
   int _count = 0;
 
+  get getCount => _count;
+
   add({int number = 1}) {
     _count = _count + number;
     return _count;
